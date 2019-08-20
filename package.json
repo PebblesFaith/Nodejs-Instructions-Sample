@@ -1,0 +1,16 @@
+{
+  "name": "nodejs-instructions-sample",
+  "version": "1.0.0",
+  "description": "Node.js Instructions Sample",
+  "main": "instructions.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Tutorial",
+    "Guidelines"
+  ],
+  "author": "Sarai Hannah Ajai",
+  "license": "ISC"
+}
+
