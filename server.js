@@ -4,7 +4,7 @@ const http = require('http');
 // We can define the function in this server.js module for creating  a web server. So, let us store our value results in a server object by creating a constant name.
 const server = http.createServer(function(request, response){
     if (request.url === '/') {
-        response.write('Hello World! I am studying Node.js HTTP module request and response');
+        response.write('Hello World! I am studying Node.js HTTP module request and response.');
         response.end();
     }
 
