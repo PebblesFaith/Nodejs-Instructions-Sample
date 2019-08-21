@@ -15,5 +15,5 @@ server.on('connection', (socket) => {
 // Type in server dot (.) listen; in order to call the server then we will need to give the listen on an object name let us say, 3000 for local host port 3000. 
 server.listen(3000);
 
-// Create an output liston on message onto the server.
+// Create an output listener onto the console.
 console.log('Listening on port 3000…Hello World! I am learning Node.js.');
