@@ -7,6 +7,11 @@ const server = http.createServer(function(request, response){
         response.write('Hello World! I am studying Node.js HTTP module request and response.');
         response.end();
     }
+// Create if statement request to define the various routes.
+    if (request.url === '/api/courses') {
+        response.write(JSON.stringify([1, 2, 3]));
+        response.end();
+    }
 
 });
 
